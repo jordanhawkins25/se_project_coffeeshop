@@ -180,17 +180,23 @@
 }
 
 .recipes__video_iframe {
-    border: none;
+    margin-right: 40px;
+    border: 0px;
     width: 480px;
     height: 273px;
     position: absolute
 }
 
 .recipes__video-caption {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 24px;
+    margin-bottom: auto;
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
     color: #FFFFFF;
+
 }
