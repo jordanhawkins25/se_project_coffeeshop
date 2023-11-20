@@ -1,0 +1,12 @@
+.span-accent {
+    max-width: 729px;
+    margin-left: 80px;
+    margin-top: 183px;
+    display: block;
+    font-family: "Noto Serif";
+    font-style: italic;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 72px;
+    color: #2F80ED;
+  }
