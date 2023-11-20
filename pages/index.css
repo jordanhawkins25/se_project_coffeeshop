@@ -1,3 +1,14 @@
+@keyframes pulsate {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.6;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 @import url(../blocks/page.css);
 @import url(../blocks/header.css);
 
@@ -42,7 +53,12 @@
     display: flex;
     gap: 20px;
     margin-top: 30px;
-    margin-right: 80px
+    margin-right: 80px;
+    transition: color 0.3s ease;
+}
+
+.nav__links:hover {
+    color: #2F80ED;
 }
 
 .nav__link {
@@ -387,8 +403,8 @@
     line-height: 52px;
     margin: 100px 0 0;
     max-width: 251px;
-    position: relative;
     z-index: 1;
+    position: relative;
 }
 
 .about__content {
@@ -398,12 +414,10 @@
     font-size: 20px;
     line-height: 30px;
     color: white;
-    flex-direction: column;
     max-width: 660px;
     margin: 119px 0 173px;
     margin-left: auto;
-    z-index: 1;
-    position: relative;
+    
 }
 
 .about__circle {
@@ -413,6 +427,18 @@
     height: 426px;
     top: -152px;
     left:-129px;
+    position: absolute;
+}
+
+.about__circle .about__circle_animation_blurred {
+    background-color: #2f80ed;
+    border-radius: 50%;
+    width: 426px;
+    height: 426px;
+    top: -152px;
+    left:-129px;
+    animation: pulsate 1.3s ease-in-out infinite;
+
 }
 
 .about__paragragh {
@@ -462,6 +488,10 @@
     font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
+    transition: color 0.3s ease;
+}
+.footer__social-link:hover {
+    color: #C1C1C1;
 }
 
 .footer__social-icon {
