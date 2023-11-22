@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="pages/index.css"/>
     <link rel="icon" type="image/x-icon" href="favicon.ico"/>
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet"/>
     <title>Coffee Shop</title>
@@ -38,22 +37,18 @@
                 </li>
             </ul>
         </nav>
-        <span class="span-accent">Specialty Coffee</span>
-        <h1 class="header__title">in The Triple Peaks Library</h1>
+        <h1 class="header__title"><span class="header__span-accent">Specialty Coffee</span>
+        in The Triple Peaks Library</h1>
         <p class="header__description">Welcome to our study zone! We've got the coffee to energize you and the cozy vibes to help you get creative.</p>
         <img 
         src="./images/inside_coffee_shop.png"
         alt="inside coffee shop"
         class="header__image"/>
         <div class="header__footer">
-            <div class="header__footer header__footer-columns">
-                    <ul class="header__footer header__footer_list">
-                        <li class="header__footer header__footer_list-item">Hours:</li>
-                        <li class="header__footer header__footer_list-item">Monday - Friday (10:00 - 19:00)</li>
-                        <li class="header__footer header__footer_list-item">Saturday - Sunday (11:00 - 19:00)</li>
-                    </ul>
-            </div>
-            <p class="header__address">200 Success Avenue, The Town of Triple Peaks</p>
+            <p class="header__paragragh">Hours:</p>
+            <p class="header__paragragh">Monday – Friday (10:00 – 19:00)</p>
+            <p class="header__paragragh">Saturday – Sunday (11:00 – 18:00)</p>
+            <span><p class="header__paragragh_span-accent">200 Success Avenue, The Town of Triple Peaks</p></span>
         </div>
     </header>
     <main class="content">
@@ -91,7 +86,7 @@
             <form class="reservation__form form">
                 <fieldset class="form__fieldset">
                     <label class="form__label">
-                        Name *<input type="text" class="form__input" placeholder="Name Surname"/>
+                        Name *<input type="text" class="form__input" required placeholder="Name Surname"/>
                     </label>
                     <label class="form__label">
                         Number of guests *<input type="number" class="form__input" placeholder="1-8"/>
