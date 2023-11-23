@@ -5,7 +5,7 @@
 
 .footer__content {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .footer__logo {
@@ -15,7 +15,7 @@
 
 .footer__social-heading {
     color: #FFFFFF;
-    margin: 0 0 20px;
+    margin-bottom: 20px;
     margin-left: auto;
     margin-bottom: 20px;
 }
