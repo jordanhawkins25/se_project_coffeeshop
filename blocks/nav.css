@@ -1,12 +1,11 @@
 .nav {
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
  }
  
  .nav__logo {
      position: relative;
      width: 105px;
-     height: 30px;
      top: 30px;
      left :30px;
  }
