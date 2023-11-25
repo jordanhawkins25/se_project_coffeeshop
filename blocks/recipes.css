@@ -1,64 +1,64 @@
 .recipes {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #0a2750;
-    background-image: url(../images/background_recipes.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    box-sizing: border-box;
-    background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #0a2750;
+  background-image: url(../images/background_recipes.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  background-position: center;
 }
 
 .recipes__title {
-    font-family: "Inter", "Arial", sans-serif;
-    font-style: normal;
-    align-self: flex-start;
-    margin: 100px 80px 0px;
-    max-width: 580px;
-    font-weight: 500;
-    font-size: 44px;
-    color: #FFFFFF;
-    line-height: 52px
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  align-self: flex-start;
+  margin: 100px 80px 0px;
+  max-width: 580px;
+  font-weight: 500;
+  font-size: 44px;
+  color: #ffffff;
+  line-height: 52px;
 }
 
 .recipes__subtitle {
-    font-family: "Noto Serif";
-    font-style: normal;
-    margin: 24px 80px 0px;
-    max-width: 438px;
-    font-weight: normal;
-    font-size: 20px;
-    color: #FFFFFF;
-    line-height: 30px;
-    align-self: flex-start;
+  font-family: "Noto Serif", "Times New Roman", serif;
+  font-style: normal;
+  margin: 24px 80px 0px;
+  max-width: 438px;
+  font-weight: normal;
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 30px;
+  align-self: flex-start;
 }
 
 .recipes__videos {
-    display: flex;
-    gap: 40px;
-    width: 100%;
-    justify-content: center;
-    position: relative;
-    margin-top: 80px;
-    margin-bottom: 215px;
-   }
+  display: flex;
+  gap: 40px;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: 215px;
+}
 
 .recipes__iframe {
-    border: none;
-    width: 480px;
-    height: 273px;
+  border: none;
+  width: 480px;
+  height: 273px;
 }
 
 .recipes__video-caption {
-    justify-content: space-between;
-    display: flex;
-    margin-top: 24px;
-    margin-bottom: auto;
-    font-family: "Inter", "Arial", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 30px;
-    color: #FFFFFF;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: auto;
+  font-family: "Inter", "Arial", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
 }
