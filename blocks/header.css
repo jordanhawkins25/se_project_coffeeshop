@@ -62,6 +62,7 @@
 
 .header__footer {
   display: flex;
+  align-items: flex-end;
   margin: auto 80px 40px;
   flex-direction: row;
   justify-content: space-between;
@@ -74,8 +75,7 @@
   color: #838383;
 }
 
-.header__paragragh {
-  flex-wrap: wrap;
+.header__paragraph {
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -83,9 +83,5 @@
   line-height: 20px;
   color: #838383;
   margin: 0;
-  text-align: end;
-}
-
-.header__address {
-  margin: 0;
+  z-index: 1;
 }
