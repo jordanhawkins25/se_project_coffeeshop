@@ -55,9 +55,8 @@
   position: absolute;
 }
 
-.about__circle .about__circle_animation_blurred {
+.about__circle_animation_blurred {
   animation: pulsate 1.3s ease-in-out infinite;
-  position: absolute;
 }
 
 .about__paragraph {
